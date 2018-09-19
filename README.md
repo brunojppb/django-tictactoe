@@ -21,3 +21,19 @@ Install Django
 $ pip install django
 ```
 
+Run the migrations
+```shell
+$ python manage.py migrate
+```
+
+Create a super user for the admin interface
+```shell
+$ python manage.py createsuperuser
+```
+
+Run the server
+```shell
+$ python manage.py runserver
+```
+
+
