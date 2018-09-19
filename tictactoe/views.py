@@ -1,5 +1,5 @@
-from django.http import HttpResponse
+from django.shortcuts import render
 
 
 def welcome(request):
-    return HttpResponse("Testing HTTP routes")
+    return render(request, 'tictactoe/welcome.html')
