@@ -125,3 +125,8 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static")
 ]
+
+# Using django authentication views, we have to set those variables to match the right routes
+LOGIN_REDIRECT_URL = "player_home"
+LOGOUT_REDIRECT_URL = "tictactoe_welcome"
+LOGIN_URL = "player_login"
