@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'crispy_forms',
     'gameplay', # without it, django won't generate migrations with 'python manage.py makemigrations'
     'player'
 ]
